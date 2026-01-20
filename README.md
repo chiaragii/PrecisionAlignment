@@ -11,4 +11,4 @@ The steps for computing the precision are:
 5) For each state, compute the set of its available actions, i.e. possible direct successor activities according to the model ($a_v$) and them compare it with the set of executed actions, i.e. activities really executed in the traces ($e_v$);
 6) Compute precision for automaton $A$ as follows:  $a_p = \frac{\sum_{s}\omega (s) \cdot |e_x(s)|}{\sum_{s}\omega (s) \cdot |a_v(s)|}$.
 
-We refer to the paper for additional details.
+For example, consider the following process model, log and projected alignments:
